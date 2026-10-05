@@ -1,0 +1,51 @@
+{
+  "schauspieler": [
+    "Anna",
+    "Ben",
+    "Clara"
+  ],
+  "rollen": {
+    "Hamlet": "Anna",
+    "Ophelia": "Clara",
+    "Geist": "Ben"
+  },
+  "rollen_wichtigkeit": {
+    "Hamlet": 3,
+    "Ophelia": 2,
+    "Geist": 1
+  },
+  "szenen": {
+    "Szene 1": [
+      "Hamlet",
+      "Ophelia"
+    ],
+    "Szene 2": [
+      "Hamlet",
+      "Geist"
+    ]
+  },
+  "szenen_geplante_proben": {},
+  "abwesenheiten": {
+    "Ben": [
+      [
+        "2025-01-10",
+        "2025-01-15"
+      ]
+    ]
+  },
+  "proben": [
+    {
+      "datum": "2025-01-05",
+      "notiz": "Erste Probe",
+      "done": false,
+      "szenen": [
+        "Szene 1"
+      ],
+      "szene": "Szene 1",
+      "rollen": [
+        "Hamlet",
+        "Ophelia"
+      ]
+    }
+  ]
+}
