@@ -1,6 +1,6 @@
 # Theaterplanung
 
-Desktop-Tool (Python/Tkinter) zur Planung von Theaterproben: Schauspieler, Rollen, Szenen,
+Desktop-Tool zur Planung von Theaterproben: Schauspieler, Rollen, Szenen,
 Abwesenheiten und Proben verwalten, Terminkonflikte erkennen und alles exportieren.
 
 ## Funktionen
@@ -42,13 +42,4 @@ Ergebnis: `dist\Theaterplanung.exe`
 > PATH, kann ein eigener Pfad übergeben werden, z. B. `.\build.ps1 -Python "C:\Path\To\Python\python.exe"`.
 > Der Pfad ist nur ein **Platzhalter** und muss durch den eigenen ersetzt werden.
 
-## Projektstruktur
 
-```
-main.py              Hauptfenster, Menü, Speichern/Laden, Export-Dialog
-data.py              Datenmodell und Logik (Abwesenheiten, Szenenvorschläge, Umbenennen/Löschen)
-exporter.py          CSV-, TXT- und PDF-Export
-ui/                  Ein Modul je Tab, gemeinsame Hilfen in common.py
-examples/            Beispieldaten
-build.ps1            EXE-Build mit PyInstaller
-```
